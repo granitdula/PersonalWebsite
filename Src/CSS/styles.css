@@ -1,0 +1,49 @@
+#background_image {
+    width: 100%;
+    margin-top: 2%;
+}
+
+#profileSection {
+    width: 70%;
+    position: absolute;
+    top: 5.5em;
+    left: 15%;
+}
+
+#myIcon {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+#profileName {
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#profileText {
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.subheadings {
+    font-size: 4vw;
+    color: #91705d;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.paragraphContainer {
+    width: 70%;
+    margin: 2% auto 0 auto;
+}
+
+.paragraphs {
+    font-size: 2vw;
+    text-align: justify;
+    color: #475359
+}
