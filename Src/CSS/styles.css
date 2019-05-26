@@ -47,3 +47,43 @@
     text-align: justify;
     color: #475359
 }
+
+#projectsContainer {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.projectBox {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    width: 30%;
+    border: 1px solid #dce2e5;
+    box-shadow: 0.25em 0.25em 0.25em grey;
+    zoom: 1
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+.boxHeading {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.boxText {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #475359
+}
