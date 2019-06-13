@@ -12,7 +12,7 @@
     </head>
 
     <body>
-        <!-----------------------NAVBAR--------------------------->
+        <!---------------------Navigation Bar------------------------->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
             <a class="navbar-brand" href="#">Granit Dula</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#aboutMe">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Interests</a>
+                        <a class="nav-link" href="#interests">Interests</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
         </div>
 
         <!------------------About Section------------------------->
-        <h1 class="subheadings">About Me</h1>
+        <h1 class="subheadings" id="aboutMe">About Me</h1>
         <div class="paragraphContainer">
             <p class="paragraphs">As a software developer I have a great passion
             for problem solving and creating tools and projects that help to
@@ -65,7 +65,7 @@
         </svg>
 
         <!------------------Projects Section----------------------->
-        <h1 class="subheadings">Projects</h1>
+        <h1 class="subheadings" id="projects">Projects</h1>
         <div id="projectsContainer">
             <div class="projectBox">
                 <h2 class="boxHeading" style="color: #26ffff">Reward Rush!</h2>
@@ -119,6 +119,91 @@
         </svg>
 
         <!-----------------Interests Section---------------------->
-        <h1 class="subheadings">Interests</h1>
+        <h1 class="subheadings" id="interests">Interests</h1>
+        <div id="demo" class="carousel slide carouselPositioning" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner" style="width: 100%; margin: auto;">
+                <div class="carousel-item active" style="width: 100%;">
+                    <img src="../Images/electronics.png" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carouselHeading">Electronics</h3>
+                        <p class="carouselText">I was always curious to know how
+                        technology worked.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="width: 100%;">
+                    <img src="../Images/physics.png" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carouselHeading">Physics</h3>
+                        <p class="carouselText">I enjoyed understanding how the
+                        universe worked in its core.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="width: 100%;">
+                    <img src="../Images/cars.png" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carouselHeading">Cars</h3>
+                        <p class="carouselText">I've loved cars ever since i
+                        could remember, both the engineering and the passion of
+                        driving.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="width: 100%;">
+                    <img src="../Images/football.png" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carouselHeading">Football</h3>
+                        <p class="carouselText">I am a big football fan since I
+                        was 6 years old.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="width: 100%;">
+                    <img src="../Images/video_games.png" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3 class="carouselHeading">Video Games</h3>
+                        <p class="carouselText">Always enjoyed playing them as
+                        well as making them.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <svg height="3" width="100%">
+            <line x1="10%" y1="15%" x2="90%" y2="15%"
+            style="stroke:rgb(220,226,229); stroke-width:2" />
+        </svg>
+
+        <!-----------------Contact Section------------------------>
+        <h1 class="subheadings" id="contact">Contact</h1>
+        <div id="contactTextContainer">
+            <p class="contactText">Gmail: granitdula98@gmail.com<br>
+                                   UCL Email: granit.dula.17@ucl.ac.uk<br>
+                                   Tel: 07446868663</p>
+            <p class="contactText" style="color: #475359;"><b>CV available on request via gmail.</b></p>
+        </div>
+
+        <div id="logoContainer">
+            <a href="https://github.com/kvrule" class="icons" style="width: 25%;"><img src="../Images/github_logo.jpg" style="width: 100%; margin: auto;"></a>
+            <a href="#" class="icons" style="margin-top: 3%; width: 25%;"><img src="../Images/twitter_logo.jpg" style="width: 100%; margin: auto;"></a>
+            <a href="https://www.linkedin.com/in/granit-dula-9bb02a176/" class="icons" style="width: 25%;"><img src="../Images/linkedin_logo.jpg" style="width: 100%; margin: auto;"></a>
+            <span class="stretch"></span>
+        </div>
+
+        <!-----------------Footer Section------------------------->
+        <footer class="bg-dark" style="height: 20%;">
+            <p id="footerText">© 2019 Granit Dula. All rights reserved.<br>
+            Undergraduate Computer Scientist, University College London</p>
+        </footer>
     </body>
 </html>

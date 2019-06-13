@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #background_image {
     width: 100%;
     margin-top: 2%;
@@ -86,4 +90,61 @@
     font-size: 1.5vw;
     text-align: center;
     color: #475359
+}
+
+.carouselPositioning {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.carouselHeading {
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.carouselText {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#contactTextContainer {
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+.contactText {
+    font-size: 2vw;
+    text-align: left;
+    color: #475359;
+}
+
+#logoContainer {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+#logoContainer .icons {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.icons:hover{
+    opacity: 0.6;
+}
+
+#footerText {
+    margin-top: 2%;
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
 }
